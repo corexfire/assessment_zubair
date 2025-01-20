@@ -80,11 +80,10 @@
             @else
                 <img class="image_2-preview w-60 h-96 object-cover rounded-full max-w-full">
             @endif
-            <x-file-input id="image_1" name="image_1" label="Upload Image 2" placeholder="Choose a file..." />
+            <x-file-input id="image_2" name="image_2" label="Upload Image 2" placeholder="Choose a file..." />
         </div>
     </div>
     <div class="flex justify-end space-x-2">
         <x-primary-button>{{ __('Save') }}</x-primary-button>
-
     </div>
 </form>
